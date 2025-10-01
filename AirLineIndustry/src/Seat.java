@@ -9,5 +9,3 @@ public class Seat {
 
     public void bookSeat() { }
 }
-{
-}
