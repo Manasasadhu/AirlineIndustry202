@@ -1,7 +1,7 @@
 import java.util.Date;
 
-public class Ticket {
-    private String ticketId;
+public class Reservation {
+    private String reservationId;
     private Date bookingDate;
     private String bookingStatus;
     private double ticketPrice;
@@ -10,8 +10,8 @@ public class Ticket {
     private Seat seat;
     private Passenger passenger;
 
-    public Ticket(String ticketId, Date bookingDate, Flight flight, Seat seat, Passenger passenger) {
-        this.ticketId = ticketId;
+    public Ticket(String reservationId, Date bookingDate, Flight flight, Seat seat, Passenger passenger) {
+        this.reservationId = reservationId;
         this.bookingDate = bookingDate;
         this.flight = flight;
         this.seat = seat;
